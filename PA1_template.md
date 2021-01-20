@@ -259,7 +259,8 @@ plot(interval.steps ~ interval,
 box(which = "outer")
 
 # this should appear at the top of the peak
-points(x = max$interval, y = max$mean, pch = 18, col = "orange", cex = 2)
+points(x = max$interval, y = max$mean, pch = 18, col = "red", cex = 1.5)
+legend("topright", pch = 18, col = "red", legend = "maximum")
 ```
 
 ![](figure/which-max-1.png)<!-- -->
